@@ -1,0 +1,12 @@
+void setup()
+{
+pinMode(10,OUTPUT); //Assigning digital pin 10 of Arduino to be an output
+}
+
+void setup
+{
+digitalWrite(10,HIGH); //Turn Led on
+delay(1000); //time delay before the new line
+digitalWrite(10,LOW); //Turn Led off
+delay(1000);
+}
